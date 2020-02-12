@@ -22,7 +22,7 @@
 					<f:formElements>
 						<f:FormElement>
 							<f:fields>
-								<TextArea value="{answer}" editable="false" id="answerText" />
+								<Text class="sapUiResponsiveMargin" text="{answer}" id="answerText"/>
 							</f:fields>
 						</f:FormElement>
 					</f:formElements>
