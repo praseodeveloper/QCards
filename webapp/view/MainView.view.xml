@@ -1,0 +1,33 @@
+<mvc:View controllerName="com.praseo.carouselTest.controller.MainView" displayBlock="true" 
+	xmlns="sap.m" 
+	xmlns:core="sap.ui.core" 
+	xmlns:f="sap.ui.layout.form" 
+	xmlns:mvc="sap.ui.core.mvc">
+	<Carousel loop="true" pageChanged = "handleNextPage" pages="{/bank}">
+		<!-- <ObjectHeader>
+			<attributes>
+				<ObjectAttribute title="Q)" text="{question}"/>
+				<ObjectAttribute title="A)" text="{answer}"/>
+			</attributes>
+		</ObjectHeader> -->
+		<f:Form id="FormDisplay" editable="false">
+			<f:title>
+				<core:Title text="{question}" />
+			</f:title>
+			<f:layout>
+				<f:ResponsiveGridLayout singleContainerFullSize="true" />
+			</f:layout>
+			<f:formContainers>
+				<f:FormContainer>
+					<f:formElements>
+						<f:FormElement>
+							<f:fields>
+								<TextArea value="{answer}" editable="false" id="answerText" />
+							</f:fields>
+						</f:FormElement>
+					</f:formElements>
+				</f:FormContainer>
+			</f:formContainers>
+		</f:Form>
+	</Carousel>
+</mvc:View> 

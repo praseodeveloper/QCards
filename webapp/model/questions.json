@@ -1,0 +1,16 @@
+{
+	"bank": [
+		{
+			"question": "Newton's first law of motion",
+			"answer": "Every body persists in its state of being at rest or of moving uniformly straight forward, except insofar as it is compelled to change its state by force impressed."
+		},
+		{
+			"question": "Newton's second law of motion",
+			"answer": "The alteration of motion is ever proportional to the motive force impress'd; and is made in the direction of the right line in which that force is impress'd"
+		},
+		{
+			"question": "Newton's third law of motion",
+			"answer": "To every action there is always opposed an equal reaction: or the mutual actions of two bodies upon each other are always equal, and directed to contrary parts."
+		}
+	]
+}
